@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["python3","-m","valt"]
+CMD ["python3","-m","RemiRobot"]
