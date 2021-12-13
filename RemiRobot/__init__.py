@@ -66,8 +66,9 @@ if ENV:
             "Your tiger users list does not contain valid integers.")
 
     INFOPIC = bool(os.environ.get('INFOPIC', False))
-    URL = os.environ.get('URL', "")  # Does not contain token
     EVENT_LOGS = os.environ.get('EVENT_LOGS', None)
+    WEBHOOK = bool(os.environ.get('WEBHOOK', False))
+    URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', None)
