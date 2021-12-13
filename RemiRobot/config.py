@@ -23,6 +23,7 @@ class Config(object):
     SUPPORT_CHAT = 'RemiSupport'  #Your own group for support, do not add the @
     JOIN_LOGGER = -1001739802989  #Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = -1001739802989  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    SPAMWATCH_API = "l37865~kqTocCk~~HQ4lWZdoTLBwfm2lWkJFLN~XDO52ukVW0UGQcbSN_s92CbBn"
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
